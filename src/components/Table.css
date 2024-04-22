@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+    /* height: ; */
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    /* padding: 8px; */
+}
+
+tr:nth-child(even){
+    /* it is given so that each row will look different 
+    than its above row so
+    even means 0 2 4 6 will have this effect */
+    background-color: #808080;
+}
